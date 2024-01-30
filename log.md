@@ -4,4 +4,4 @@ First Day of 100Days of DBMS, Mehn it feels good, lets see how it goes and trus 
 
 ## DAY0: January 30th 2024.
 
-* Highlight of the Day: Introduction to DBMS. 
+#### Highlight of the Day: Introduction to DBMS. 
