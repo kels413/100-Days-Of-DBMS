@@ -4,4 +4,4 @@
 2. update the [link to log](log.md) file so visitors could see my progress
 3. at the end of the challange you must build a project to practice what you have learn't
 
-## Start Date: 30th january 2024.
+## Start Date: 30th January 2024.
