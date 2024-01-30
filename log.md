@@ -13,4 +13,4 @@ First Day of 100Days of DBMS, Mehn it feels good, lets see how it goes and trus 
  * also learn't the Key features of DBMS. 
 
  ## READ More
- [lint to file](Day1)
+ [lint to file](/Lectures/week/Day1)
