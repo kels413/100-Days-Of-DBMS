@@ -44,6 +44,7 @@ what is Database ??
     your feelings right ??, buh you chose to write it down, what is the use case  of that ?? is so
     that she can make reference to it anytime any day in her life and remember you right ??, that is
     indeed Database, cause all of your data is stored in a paper right ??, 
+      ***************************************************************************
     Database is the collection and organization of Data so that they can be easily managed,
     retrieved and updated.
 
@@ -62,5 +63,11 @@ what is Database Management System ??
 
 Key Features of DBMS.
     I use this acronym which is "Dami Dont Dare Dump chris".
-    
-    
+
+    Every DBMS must have these key features while its more than these, buh these are the major.
+
+    1. Data Definition: this is basically when we define the Data types, data structures and constraints of the data to be stored
+    2. Data storage: the process of storing data on secondary storage, (servers) so we can easily perform operaions on the data
+    3. Data Manipulation: it is the operations on data, informally add, modify, and delete (insert, querrying and updat).
+    4. Data Protection: security of the data
+    5. concurent access: allow multiple users or programs to access the data at simutaneously.
