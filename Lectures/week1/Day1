@@ -22,8 +22,34 @@ let me not bore you with long talk,
 
 now what is Data ?:
 
-    data is unprocessed raw fact that we have to process to get information right??
+    data is  raw fact (unprocessed) that we have to process to get information right??
+
+what is information ?
+    Information is the outcome of a processed Data.
+    
+    lets's consider this Data of a student == NAME, CLASS, AGE, GRADE, AVERAGE etc ...
+    
+    all of this listed here are Data right ?? which is actually the Data of student right ??,
+     
+    at the end of the term the students result is out, we can consider that student result as 
+    
+    "information" right ?? cause it's what we got after working with the students DATA.
 
 what is Database ?:
+    if you have ever stored you girlfriend phone Number on a piece of paper or written a love
+    love letter to your girlfriend using a paper, can i shock you ??, you aware that you have just utilized the
+    power of Database ??, why the example is weird lol.... buh that's the reality of Database,
+    
+    now let's analyse what happend there, you know you could basically walk up to her and confess
+    your feelings right ??, buh you chose to write it down, what is the use case  of that ?? is so
+    that she can make reference to it anytime any day in her life and remember you right ??, that is
+    indeed Database, cause all of your data is stored in a paper right ??, 
     Database is the collection and organization of Data so that they can be easily managed,
     retrieved and updated.
+
+    buh now it is different in the world of computer.
+        computers make use harddisk and someother computer based storage devices, even cloud
+        don't freak out not heavily cloud tho lol ... (more on that later),
+         to store data so that you can access it anytime, anywhere, unlike your love letter that
+        mere heat can make the ink to be faded out, don't mind my boring jokes bout your creativity.
+        access them anytime, any day, any where, unlike the love letter that ca
