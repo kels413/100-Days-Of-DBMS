@@ -1,4 +1,4 @@
-in todays lecture i learnt bout Introduction to Database Management System.
+In todays lecture i learnt bout Introduction to Database Management System.
 
 but before we delve straight into what is Database Management System (DBMS),
 Side Note : please the name is so long and I am very very enthusiased bout typing
@@ -35,7 +35,7 @@ what is information ?
     
     "information" right ?? cause it's what we got after working with the students DATA.
 
-what is Database ?:
+what is Database ??
     if you have ever stored you girlfriend phone Number on a piece of paper or written a love
     love letter to your girlfriend using a paper, can i shock you ??, you aware that you have just utilized the
     power of Database ??, why the example is weird lol.... buh that's the reality of Database,
@@ -52,4 +52,15 @@ what is Database ?:
         don't freak out not heavily cloud tho lol ... (more on that later),
          to store data so that you can access it anytime, anywhere, unlike your love letter that
         mere heat can make the ink to be faded out, don't mind my boring jokes bout your creativity.
-        access them anytime, any day, any where, unlike the love letter that ca
+        access them anytime, any day, any where, unlike the love letter that can be easily ruined by 
+        a mere hot temperature.
+
+what is Database Management System ??
+
+    Database Management System is a collection of control routines (software packages) that manages the functiona-
+    lity of our Data, basically for easy storage and retrival.
+
+Key Features of DBMS.
+    I use this acronym which is "Dami Dont Dare Dump chris".
+    
+    
