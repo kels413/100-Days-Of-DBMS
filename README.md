@@ -2,4 +2,7 @@
 
 ## Database-Management-System
 
-# [link to rules](rules.md)
+## content
+* [link to rules](rules.md)
+* log info - click to see my daily progress
+* log sneak-peak
