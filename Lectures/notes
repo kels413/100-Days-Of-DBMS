@@ -1,0 +1,88 @@
+In todays lecture i learnt bout Introduction to Database Management System.
+
+but before we delve straight into what is Database Management System (DBMS),
+Side Note : please the name is so long and I am very very enthusiased bout typing
+so for that reason I will be calling it DBMS right ?, Thank you, you welcome.
+
+
+back to what we were discussing, so before I start DBMS, we have a few concepts to 
+put into consideration, I love asking myself alot of questions before learning a concept
+and but one main one is this:
+
+1. why do i have to learn that concept ?
+
+let me not bore you with long talk,
+ Linus Trovald: "Talk is cheap show me the code"[click here](https://www.goodreads.com/quotes/437173-talk-is-cheap-show-me-the-code)
+
+1. what is Data ??
+2. what is information ??
+3. what is Database ??
+4. what is DBMS ??
+ Why should one study DBMS ??
+
+now what is Data ?:
+
+    data is  raw fact (unprocessed) that we have to process to get information right??
+
+what is information ?
+    Information is the outcome of a processed Data.
+    
+    lets's consider this Data of a student == NAME, CLASS, AGE, GRADE, AVERAGE etc ...
+    
+    all of this listed here are Data right ?? which is actually the Data of student right ??,
+     
+    at the end of the term the students result is out, we can consider that student result as 
+    
+    "information" right ?? cause it's what we got after working with the students DATA.
+
+what is Database ??
+    if you have ever stored you girlfriend phone Number on a piece of paper or written a love
+    love letter to your girlfriend using a paper, can i shock you ??, you aware that you have just utilized the
+    power of Database ??, why the example is weird lol.... buh that's the reality of Database,
+    
+    now let's analyse what happend there, you know you could basically walk up to her and confess
+    your feelings right ??, buh you chose to write it down, what is the use case  of that ?? is so
+    that she can make reference to it anytime any day in her life and remember you right ??, that is
+    indeed Database, cause all of your data is stored in a paper right ??, 
+      ***************************************************************************
+    Database is the collection and organization of Data so that they can be easily managed,
+    retrieved and updated.
+
+    buh now it is different in the world of computer.
+        computers make use harddisk and someother computer based storage devices, even cloud
+        don't freak out not heavily cloud tho lol ... (more on that later),
+         to store data so that you can access it anytime, anywhere, unlike your love letter that
+        mere heat can make the ink to be faded out, don't mind my boring jokes bout your creativity.
+        access them anytime, any day, any where, unlike the love letter that can be easily ruined by 
+        a mere hot temperature.
+
+what is Database Management System ??
+
+    Database Management System is a collection of control routines (software packages) that manages the functiona-
+    lity of our Data, basically for easy storage and retrival.
+
+Key Features of DBMS.
+    I use this acronym which is "Dami Dont Dare Dump chris".
+
+    Every DBMS must have these key features while its more than these, buh these are the major.
+
+    1. Data Definition: this is basically when we define the Data types, data structures and constraints of the data to be stored
+    2. Data storage: the process of storing data on secondary storage, (servers) so we can easily perform operaions on the data
+    3. Data Manipulation: it is the operations on data, informally add, modify, and delete (insert, querrying and updat).
+    4. Data Protection: security of the data
+    5. concurent access: allow multiple users or programs to access the data at simutaneously.
+
+
+
+In today's lectures I stretched My hand to learn bout Characteristics of DBMS.
+
+* Characteristics of DBMS.
+
+DBMS has alot of Interesting Features which makes it more suitable than File system, and we have discussed what filesystem storage is.
+
+
+but we all know that file system has so many limitations right ??, we switched to database systems to explore the benefits of it.
+
+for us to understand the limitations of Database let's look at this example,
+
+
