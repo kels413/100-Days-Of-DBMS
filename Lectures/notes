@@ -123,6 +123,12 @@ what is 1 tier architecture ??
 a 1 tier architecture or single tier or monolithic architecture is a type of architecture
 where the server, client are all in one computer.
 
+what is a 2 tier architecture ??
+
+a 2 tier architecture is a type where we have client server architecture, that is the client
+makes request through a protocol to the server and the server responds back with a response
+through a protocol again. (we have like a physical server in 2 tier architecture )
+
 
 
 
