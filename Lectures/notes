@@ -130,5 +130,13 @@ makes request through a protocol to the server and the server responds back with
 through a protocol again. (we have like a physical server in 2 tier architecture )
 
 
+what is a three tier architecture ??
+
+a three tier architecture is a type of architecture that is consists of
+
+1. physical tier, provides a graphical interface for the end user to interact with the server.
+2. application tier which handles the business logic, helps render dynamic content
+3. database tier , which helps to store and manage data.
+
 
 
