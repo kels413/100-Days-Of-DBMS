@@ -84,5 +84,10 @@ DBMS has alot of Interesting Features which makes it more suitable than File sys
 but we all know that file system has so many limitations right ??, we switched to database systems to explore the benefits of it.
 
 
-Tiers of Database architeture
+Tiers of Database architecture.
+
+* What is a client ??
+
+a client is a device or a software that makes request for service or resource
+from another system or device called a server.
 
