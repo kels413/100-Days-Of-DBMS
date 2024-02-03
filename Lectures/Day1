@@ -1,4 +1,3 @@
-DAY 1 LECTURE
 In todays lecture i learnt bout Introduction to Database Management System.
 
 but before we delve straight into what is Database Management System (DBMS),
@@ -72,4 +71,18 @@ Key Features of DBMS.
     3. Data Manipulation: it is the operations on data, informally add, modify, and delete (insert, querrying and updat).
     4. Data Protection: security of the data
     5. concurent access: allow multiple users or programs to access the data at simutaneously.
+
+
+
+In today's lectures I stretched My hand to learn bout Characteristics of DBMS.
+
+* Characteristics of DBMS.
+
+DBMS has alot of Interesting Features which makes it more suitable than File system, and we have discussed what filesystem storage is.
+
+
+but we all know that file system has so many limitations right ??, we switched to database systems to explore the benefits of it.
+
+for us to understand the limitations of Database let's look at this example,
+
 
