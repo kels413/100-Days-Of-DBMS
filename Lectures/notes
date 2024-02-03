@@ -104,6 +104,10 @@ and sends a response back to the client through protocol.
 
 now what is a client server architecture ?
 
+the client server model is a type of model in web development where a website or
+architecture is designed using the components of both client and server side, so they
+can handle requests and responds interchangeably.
+
 
 
 now lets talk bout the Tiers of
