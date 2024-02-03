@@ -109,7 +109,17 @@ architecture is designed using the components of both client and server side, so
 can handle requests and responds interchangeably.
 
 
+now lets talk bout the schemas of Dbms
 
-now lets talk bout the Tiers of
+we have three schemas of architecture which are
+
+1. 1 tier architecture
+2. 2 tier architecture
+3. 3 tier architecture
+
+
+
+
+
 
 
