@@ -138,5 +138,6 @@ a three tier architecture is a type of architecture that is consists of
 2. application tier which handles the business logic, helps render dynamic content
 3. database tier , which helps to store and manage data.
 
+#END OF TODAY'S CLASS ON DBMS
 
 
