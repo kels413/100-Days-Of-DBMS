@@ -84,10 +84,25 @@ DBMS has alot of Interesting Features which makes it more suitable than File sys
 but we all know that file system has so many limitations right ??, we switched to database systems to explore the benefits of it.
 
 
-Tiers of Database architecture.
+The Three Scheme architecture.
+let's first understand some concept before we delve into the architecture
 
 * What is a client ??
 
 a client is a device or a software that makes request for service or resource
 from another system or device called a server.
+
+*EXAMPLE
+
+imagine you are surfing the internet right, now the machine such as your
+laptop, mobile phone is the client, while the website you want to search is hosted on
+on a server.
+
+what is a server ??
+A server is a device or software that serves the clients listens for requests through a protocol
+and sends a response back to the client through protocol.
+
+
+now lets talk bout the Tiers of
+
 
