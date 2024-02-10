@@ -10,4 +10,4 @@ help contents; == view details bout contents
 
 to show all database we use == SHOW DATABASES;
 TO CREATE DATABASE == CREATE DATABASE (name of database);
-to delete database == DROP DATABASE ()
+to delete database == DROP DATABASE (name of database)
