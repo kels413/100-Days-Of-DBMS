@@ -9,4 +9,4 @@ help; == view how to use commands.
 help contents; == view details bout contents
 
 to show all database we use == SHOW DATABASES;
-TO CREATE DATABASE == CREATE DATABASE 
+TO CREATE DATABASE == CREATE DATABASE name of database;
