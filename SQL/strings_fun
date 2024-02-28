@@ -5,4 +5,6 @@ example.
 SELECT CONCAT(first_name, '', last_name)
 FROM TABLE
 (SUBSTRING)
-
+REPLACE
+REVERSE
+CHAR_LENGTH
