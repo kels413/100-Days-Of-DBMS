@@ -18,3 +18,9 @@ SELECT
 
 -- replace and CONCAT
 
+SELECT
+    REPLACE(
+        CONCAT('I', ' ', 'like', ' ', 'cats'),
+        ' ',
+        '_'
+    );
