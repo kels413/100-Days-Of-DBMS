@@ -48,3 +48,9 @@ SELECT
 FROM books;
 
 -- concat title with released date
+SELECT 
+    CONCAT(title, ' was released in ', released_year) AS 'blurb'
+FROM books
+
+-- book title with lenght of each title
+
