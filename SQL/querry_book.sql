@@ -54,3 +54,6 @@ FROM books
 
 -- book title with lenght of each title
 
+SELECT title AS title,
+    CHAR_LENGTH(title) AS 'character_count'
+FROM books
