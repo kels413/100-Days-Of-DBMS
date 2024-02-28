@@ -46,3 +46,5 @@ SELECT
         CONCAT(author_fname, ' ', author_lname)
     ) AS 'full name in caps'
 FROM books;
+
+-- concat title with released date
