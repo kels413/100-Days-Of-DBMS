@@ -38,3 +38,5 @@ FROM books;
 SELECT author_lname AS 'forwards',
     REVERSE(author_lname) AS 'backwards'
 FROM books;
+
+-- authors fullname in caps
