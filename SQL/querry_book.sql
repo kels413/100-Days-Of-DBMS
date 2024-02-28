@@ -30,5 +30,8 @@ SELECT
 SELECT
     REPLACE(
         title, ' ', '->'
-    )
+    ) AS 'title'
 FROM books;
+
+-- select author_lname and reverse them
+
