@@ -24,3 +24,11 @@ SELECT
         ' ',
         '_'
     );
+
+-- replace every space with -> in book title
+
+SELECT
+    REPLACE(
+        title, ' ', '->'
+    )
+FROM books;
