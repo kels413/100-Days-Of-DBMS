@@ -16,3 +16,5 @@ SELECT
         UPPER('why does my cat look at  me with such hatred')
     );
 
+-- replace and CONCAT
+
