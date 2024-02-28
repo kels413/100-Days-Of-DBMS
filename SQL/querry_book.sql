@@ -35,6 +35,6 @@ FROM books;
 
 -- select author_lname and reverse them
 
-SELECT author_lname,
-    REVERSE(author_lname)
+SELECT author_lname AS 'forwards',
+    REVERSE(author_lname) AS 'backwards'
 FROM books;
