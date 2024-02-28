@@ -57,3 +57,13 @@ FROM books
 SELECT title AS title,
     CHAR_LENGTH(title) AS 'character_count'
 FROM books
+
+SELECT 
+    CONCAT(author_lname, ',', author_fname)
+    FROM books
+WHERE author_lname = 'Gaiman';
+
+
+-- concat alot of strings.
+
+
