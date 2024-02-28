@@ -1,10 +1,9 @@
 Here I write down all the string related function I learn bout sql.
 
-(CONCAT.)
-example.
-SELECT CONCAT(first_name, '', last_name)
-FROM TABLE
-(SUBSTRING)
+CONCAT
+SUBSTRING
 REPLACE
 REVERSE
 CHAR_LENGTH
+UPPER 
+LOWER
