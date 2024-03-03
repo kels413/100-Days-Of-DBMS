@@ -139,3 +139,11 @@ ORDER BY stock_quantity ASC LIMIT 3
 SELECT title, author_lname
 FROM books
 ORDER BY 2, 1
+
+-- select and CONCAT 
+SELECT 
+    CONCAT(
+        "MY FAVORITE AUTHOR IS ", author_fname, " ", author_lname 
+    ) AS "yell"
+FROM books
+ORDER BY author_lname ASC
