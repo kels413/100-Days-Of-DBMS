@@ -75,9 +75,22 @@ SELECT
     CONCAT(stock_quantity, ' in stock') AS quantity
 FROM books;
 
+
 SELECT title, 
-REVERSE (
-	author_lname
-)
+REVERSE (author_lname) as reversed_name
 FROM books 
 WHERE released_year >= 2000
+
+SELECT DISTINCT author_lname
+FROM books
+
+-- ORDER BY
+
+SELECT author_lname  
+FROM books
+ORDER BY author_lname
+
+SELECT title
+FROM books
+ORDER BY title DESC
+
