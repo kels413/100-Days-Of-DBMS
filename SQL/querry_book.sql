@@ -209,15 +209,7 @@ ORDER BY author_fname
 
 -- author with longest book
 
-SELECT 
-    CONCAT(
-        author_fname, ' ', author_lname
-    ), max(pages) 
-FROM books
-GROUP BY author_fname, author_lname
-
-
--- method 2
+-- -- method 2
 SELECT 
     CONCAT
     (
@@ -229,23 +221,7 @@ FROM books
 ORDER BY pages DESC LIMIT 1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+SELECT released_year AS 'year', COUNT(*), AVG(pages)
+FROM books
+GROUP BY released_year
+ORDER BY released_year 
