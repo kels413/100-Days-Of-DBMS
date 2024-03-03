@@ -125,4 +125,9 @@ SELECT
 FROM books
 WHERE released_year >= 2014
 
+-- SELECT author lastname with space CHARACTER
+SELECT author_lname
+FROM books
+WHERE author_lname LIKE "% %"
+
 
