@@ -193,6 +193,13 @@ FROM books
 GROUP BY released_year 
 ORDER BY released_year
 
+-- total number of stock
+
+SELECT sum(stock_quantity )
+FROM books
+
+
+
 
 
 
