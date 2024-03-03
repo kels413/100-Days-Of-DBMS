@@ -175,6 +175,21 @@ SELECT author_fname,
 FROM books
 GROUP BY author_fname, author_lname
 
+-- SUM ALL PAGES EACH AUTHOR HAS WRITTEN
+-- SUM, GROUP BY
+
+SELECT author_fname, author_lname, SUM(pages)
+FROM books
+GROUP BY author_fname, author_lname
+
+
+-- print the number of books in the DATABASE
+SELECT COUNT(*)
+FROM books
+
+
+
+
 
 
 
