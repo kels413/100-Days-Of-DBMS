@@ -207,7 +207,34 @@ from books
 GROUP BY author_fname, author_lname
 ORDER BY author_fname 
 
--- 
+-- author with longest book
+
+SELECT 
+    CONCAT(
+        author_fname, ' ', author_lname
+    ), max(pages) 
+FROM books
+GROUP BY author_fname, author_lname
+
+
+-- method 2
+SELECT 
+    CONCAT
+    (
+        author_fname,
+         ' ',
+         author_lname
+    ) AS author_fullname, pages
+FROM books
+ORDER BY pages DESC LIMIT 1
+
+
+
+
+
+
+
+
 
 
 
