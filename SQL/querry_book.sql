@@ -106,3 +106,8 @@ SELECT title
 FROM books
 WHERE title LIKE "%stories"
 
+-- select book with longest pages.
+SELECT title, pages 
+FROM books
+ORDER BY pages DESC LIMIT 1
+
