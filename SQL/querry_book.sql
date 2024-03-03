@@ -166,4 +166,20 @@ SELECT title, COUNT(*)
 FROM books
 GROUP BY title
 
+SELECT MAX(pages)
+FROM books
+GROUP BY author_fname, author_lname
+
+SELECT author_fname,
+    author_lname, MAX(pages)
+FROM books
+GROUP BY author_fname, author_lname
+
+
+
+
+
+
+
+
 
