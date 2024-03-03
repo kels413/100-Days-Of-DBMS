@@ -199,6 +199,15 @@ SELECT sum(stock_quantity )
 FROM books
 
 
+-- find the average released year for each author
+
+SELECT 
+    CONCAT(author_fname, ' ', author_lname), AVG(released_year) AS 'fullname'
+from books
+GROUP BY author_fname, author_lname
+ORDER BY author_fname 
+
+-- 
 
 
 
