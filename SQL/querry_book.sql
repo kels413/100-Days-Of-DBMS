@@ -101,3 +101,8 @@ released_year
 
 
 -- select stories
+
+SELECT title
+FROM books
+WHERE title LIKE "%stories"
+
