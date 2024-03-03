@@ -104,9 +104,8 @@ FROM books
 ORDER BY
 released_year
 
-
+-- second assignment (3 march)
 -- select stories
-
 SELECT title
 FROM books
 WHERE title LIKE "%stories"
@@ -143,7 +142,22 @@ ORDER BY 2, 1
 -- select and CONCAT 
 SELECT 
     CONCAT(
-        "MY FAVORITE AUTHOR IS ", author_fname, " ", author_lname 
+        "MY FAVORITE AUTHOR IS ",UPPER(author_fname), " ", UPPER(author_lname), "!"
     ) AS "yell"
 FROM books
 ORDER BY author_lname ASC
+
+-- COUNT
+SELECT  COUNT(DISTINCT author_fname)
+FROM books
+
+SELECT COUNT(title) 
+FROM books
+WHERE title LIKE '%the%'
+
+SELECT title,
+       (SELECT COUNT(author_lname) FROM books WHERE author_lname = 'Gaiman') AS count_of_books
+FROM books
+WHERE author_lname = 'Gaiman';
+
+-- GROUP BY
