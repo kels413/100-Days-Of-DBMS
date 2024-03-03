@@ -183,9 +183,17 @@ FROM books
 GROUP BY author_fname, author_lname
 
 
--- print the number of books in the DATABASE
+-- number of books in the DATABASE
 SELECT COUNT(*)
 FROM books
+
+-- how many books was released in each year
+SELECT released_year, COUNT(*)
+FROM books
+GROUP BY released_year 
+ORDER BY released_year
+
+
 
 
 
