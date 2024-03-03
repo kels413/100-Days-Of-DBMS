@@ -130,4 +130,12 @@ SELECT author_lname
 FROM books
 WHERE author_lname LIKE "% %"
 
+-- Select books with least stock
+SELECT title as title, released_year as relased_year, stock_quantity AS stock_quantity
+FROM books
+ORDER BY stock_quantity ASC LIMIT 3
 
+-- order by author_lname, title
+SELECT title, author_lname
+FROM books
+ORDER BY 2, 1
