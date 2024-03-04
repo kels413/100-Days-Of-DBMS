@@ -243,3 +243,5 @@ SELECT CURDATE();
 -- print the current day (no);
 
 SELECT DAYOFWEEK(CURDATE());
+
+SELECT DAYNAME(CURDATE());
