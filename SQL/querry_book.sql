@@ -233,3 +233,5 @@ ORDER BY released_year
 -- item_name == CHAR.
 
 -- price == DECIMAL().
+
+-- quantity ==  INT.
