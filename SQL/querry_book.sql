@@ -239,3 +239,7 @@ ORDER BY released_year
 SELECT CURTIME();
 
 SELECT CURDATE();
+
+-- print the current day (no);
+
+SELECT DAYOFWEEK(CURDATE());
