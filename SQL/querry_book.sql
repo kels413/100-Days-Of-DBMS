@@ -230,7 +230,7 @@ ORDER BY released_year
 -- fill in the gaps. (best datatypes).
 
 
--- item_name == CHAR.
+-- item_name == VARCHAR().
 
 -- price == DECIMAL().
 
