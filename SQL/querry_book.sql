@@ -99,7 +99,7 @@ FROM books
 ORDER BY
 released_year
 
--- second assignment (3 march)
+------------------------------------------------------------ second assignment (3 march)
 -- select stories
 SELECT title
 FROM books
@@ -207,9 +207,7 @@ from books
 GROUP BY author_fname, author_lname
 ORDER BY author_fname 
 
--- author with longest book
-
--- -- method 2
+-- author with longest book(pages)
 SELECT 
     CONCAT
     (
@@ -220,8 +218,16 @@ SELECT
 FROM books
 ORDER BY pages DESC LIMIT 1
 
-
+-- select year and find the average
 SELECT released_year AS 'year', COUNT(*), AVG(pages)
 FROM books
 GROUP BY released_year
 ORDER BY released_year 
+
+
+-- march 4th.
+
+-- fill in the gaps. (best datatypes).
+
+
+
