@@ -235,3 +235,7 @@ ORDER BY released_year
 -- price == DECIMAL().
 
 -- quantity ==  INT.
+
+SELECT CURTIME();
+
+SELECT CURDATE();
