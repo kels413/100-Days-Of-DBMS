@@ -253,4 +253,6 @@ SELECT -15 > 15
 
 SELECT 9 > 10
 
-S
+SELECT 'a' > 'b'
+
+SELECT 'A' > 'a'
