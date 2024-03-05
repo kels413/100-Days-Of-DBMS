@@ -256,3 +256,5 @@ SELECT 9 > 10
 SELECT 'a' > 'b'
 
 SELECT 'A' > 'a'
+
+SELECT 1 > 1
