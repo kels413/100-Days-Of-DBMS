@@ -255,6 +255,26 @@ SELECT 9 > 10
 
 SELECT 'a' > 'b'
 
+
+
 SELECT 'A' > 'a'
 
 SELECT 1 > 1
+
+
+use book_shop
+
+SELECT * FROM books
+
+SELECT title
+FROM books
+WHERE author_fname = 'Jhumpa' OR
+author_lname = 'kelvin'
+
+SELECT * FROM books
+
+SELECT 1 > 1 AND 2 > 1
+
+DELETE  FROM books
+where author_lname = 'kelly'
+or author_fname = 'Jhumpa'
