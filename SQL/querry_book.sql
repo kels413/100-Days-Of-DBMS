@@ -284,3 +284,13 @@ SELECT 10 != 10
 SELECT 15 > 14 && 99 - 5 <= 94
 
 SELECT 1 IN (5, 3) || 9 BETWEEN 8 AND 10;
+
+-- select all books written before 1980
+
+SELECT * from books
+WHERE released_year < 1980;
+
+
+
+SELECT * FROM books
+
