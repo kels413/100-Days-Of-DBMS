@@ -311,7 +311,7 @@ SELECT *
 WHERE pages >= 100 AND pages <= 200
 
 -- author_lname (c, s)
-
+-- USING LIKE
 SELECT *
     FROM books
 WHERE author_lname LIKE ("C%") OR author_lname LIKE ("S%")
@@ -323,25 +323,26 @@ SELECT *,
 WHERE SUBSTR(author_lname, 1, 1) =  'C' OR SUBSTR(author_lname, 1, 1) = 'S'
 
 -- using substring and IN
-
 SELECT *,
     SUBSTR(author_lname, 1,1) as first_char
     FROM books
 WHERE SUBSTR(author_lname, 1,1) IN ('C', 'S')
 
+SELECT *,
+    CASE 
+        WHEN title LIKE ("%stories") THEN  "Short Stories"
+        WHEN title LIKE("Just Kids%") or title LIKE("A Heartbreaking%") THEN "Memoir"
+        ELSE "Novel"
+    END as "TYPE"
+FROM books
 
-
-
-
-
-
-
-
-
+DROP TABLE books
 
 
 
 SELECT * FROM books 
+
+
 
 
 
