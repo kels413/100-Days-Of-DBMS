@@ -292,7 +292,8 @@ WHERE released_year < 1980;
 
 -- select all books written by eagers or cabon
 
-
+SELECT * FROM books
+WHERE author_fname = "Eggers" OR 'Chabon'
 
 
 SELECT * FROM books
