@@ -290,7 +290,11 @@ SELECT 1 IN (5, 3) || 9 BETWEEN 8 AND 10;
 SELECT * from books
 WHERE released_year < 1980;
 
+-- select all books written by eagers or cabon
+
+
 
 
 SELECT * FROM books
+
 
