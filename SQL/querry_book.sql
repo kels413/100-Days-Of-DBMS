@@ -314,7 +314,7 @@ WHERE pages >= 100 AND pages <= 200
 
 SELECT *
     FROM books
-WHERE author_lname LIKE ("S%") OR author_lname LIKE ("S%")
+WHERE author_lname LIKE ("C%") OR author_lname LIKE ("S%")
 
 -- USING substring and between.
 SELECT *,
