@@ -293,7 +293,7 @@ WHERE released_year < 1980;
 -- select all books written by eagers or cabon
 
 SELECT * FROM books
-WHERE author_fname = "Eggers" OR 'Chabon'
+WHERE author_lname = "Eggers" OR author_lname ='Chabon'
 
 SELECT * FROM books
 WHERE 
@@ -341,6 +341,25 @@ DROP TABLE books
 
 
 SELECT * FROM books 
+
+SELECT title FROM books
+
+SELECT author_lname,
+CASE 
+    WHEN COUNT(*) = 1 THEN 
+                        CONCAT(COUNT(*), " book")
+    ELSE CONCAT(COUNT(*), " books")
+END as "COUNT"
+FROM books
+GROUP BY author_lname, author_fname
+
+
+
+
+
+
+
+
 
 
 
