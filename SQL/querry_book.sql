@@ -310,6 +310,14 @@ SELECT *
     FROM books
 WHERE pages >= 100 AND pages <= 200
 
+-- author_lname (c, s)
+
+SELECT *
+    FROM books
+WHERE author_lname LIKE ("S%") OR author_lname LIKE ("S%")
+
+
+
 SELECT * FROM books 
 
 
