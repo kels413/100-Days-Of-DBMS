@@ -314,12 +314,10 @@ WHERE pages >= 100 AND pages <= 200
 -- USING LIKE
 SELECT *
     FROM books
-WHERE author_lname LIKE ("C%") OR author_lname LIKE ("S%")
+WHERE author_lname LIKE "C%" OR author_lname LIKE "S%"
 
 -- USING substring and between.
-SELECT *,
-    SUBSTR(author_lname, 1, 1) AS 'first_char'
-    FROM books
+SELECT title, author_lname FROM books
 WHERE SUBSTR(author_lname, 1, 1) =  'C' OR SUBSTR(author_lname, 1, 1) = 'S'
 
 -- using substring and IN
