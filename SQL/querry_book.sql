@@ -316,6 +316,17 @@ SELECT *
     FROM books
 WHERE author_lname LIKE ("S%") OR author_lname LIKE ("S%")
 
+-- USING SUBSTRING.
+SELECT *,
+    SUBSTR(author_lname, 1, 1) AS 'first_char'
+    FROM books
+WHERE SUBSTR(author_lname, 1, 1) BETWEEN 'C' AND 'S'
+
+-- SELECT * 
+
+
+
+
 
 
 SELECT * FROM books 
