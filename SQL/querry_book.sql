@@ -320,7 +320,7 @@ WHERE author_lname LIKE ("C%") OR author_lname LIKE ("S%")
 SELECT *,
     SUBSTR(author_lname, 1, 1) AS 'first_char'
     FROM books
-WHERE SUBSTR(author_lname, 1, 1) =  'C' OR  SUBSTR(author_lname, 1, 1) = 'S'
+WHERE SUBSTR(author_lname, 1, 1) =  'C' OR SUBSTR(author_lname, 1, 1) = 'S'
 
 -- using substring and IN
 
@@ -328,6 +328,8 @@ SELECT *,
     SUBSTR(author_lname, 1,1) as first_char
     FROM books
 WHERE SUBSTR(author_lname, 1,1) IN ('C', 'S')
+
+
 
 
 
