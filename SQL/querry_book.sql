@@ -278,3 +278,9 @@ SELECT 1 > 1 AND 2 > 1
 DELETE  FROM books
 where author_lname = 'kelly'
 or author_fname = 'Jhumpa'
+
+SELECT 10 != 10
+
+SELECT 15 > 14 && 99 - 5 <= 94
+
+SELECT 1 IN (5, 3) || 9 BETWEEN 8 AND 10;
