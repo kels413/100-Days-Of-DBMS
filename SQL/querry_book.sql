@@ -321,9 +321,7 @@ SELECT title, author_lname FROM books
 WHERE SUBSTR(author_lname, 1, 1) =  'C' OR SUBSTR(author_lname, 1, 1) = 'S'
 
 -- using substring and IN
-SELECT *,
-    SUBSTR(author_lname, 1,1) as first_char
-    FROM books
+SELECT title, author_lname FROM books
 WHERE SUBSTR(author_lname, 1,1) IN ('C', 'S')
 
 SELECT *,
@@ -337,11 +335,6 @@ FROM books
 DROP TABLE books
 
 
-
-SELECT * FROM books 
-
-SELECT title FROM books
-
 SELECT author_lname,
 CASE 
     WHEN COUNT(*) = 1 THEN 
@@ -351,6 +344,8 @@ END as "COUNT"
 FROM books
 GROUP BY author_lname, author_fname
 
+
+SELECT * FROM books 
 
 
 
