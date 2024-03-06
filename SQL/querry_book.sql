@@ -299,6 +299,18 @@ SELECT * FROM books
 WHERE 
 released_year >= 2017
 
+-- page COUNT
+
+SELECT *
+    FROM books
+WHERE pages BETWEEN 100 AND 200
+
+-- another method
+SELECT * 
+    FROM books
+WHERE pages >= 100 AND pages <= 200
+
 SELECT * FROM books 
+
 
 
