@@ -47,4 +47,10 @@ SELECT * FROM customers
 SELECT * FROM orders
 
 
+SELECT * FROM customers WHERE id = 1
+
+
+SELECT * FROM orders WHERE customer_id  = 1
+
+
 
