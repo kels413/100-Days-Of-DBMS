@@ -1,4 +1,10 @@
+-- A database sample of a libray website.
+-- database name: customers_and_orders
+-- tables : customers table and orders table.g
+
 CREATE DATABASE `customers_and_orders`
+
+-- 
 
 
 INSERT INTO customers (first_name, last_name, email) 
