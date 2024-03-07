@@ -55,12 +55,17 @@ SELECT * FROM orders WHERE customer_id  = 1
 -- using subquery to join the select
 
 SELECT * FROM orders
- WHERE customer_id = 
+WHERE customer_id = 
                     (
                         SELECT id FROM customers
                         WHERE last_name = "George"
                     );
 
+SELECT * FROM customers, orders;
+
+
+SELECT * FROM customers, orders
+WHERE customers.id = orders.customer_id
 
 
 
