@@ -9,3 +9,7 @@ SELECT count(*) FROM books;
 SELECT USER, HOST FROM mysql.user
 
 SELECT CURRENT_ROLE();
+
+SELECT CURRENT_USER()
+
+sel
