@@ -19,3 +19,6 @@ Relationship basics in sql.
 One to one Relationship
 one to many Relationship
 many to many Relationship
+
+
+create user bob@localhost Identified by '123456789'
