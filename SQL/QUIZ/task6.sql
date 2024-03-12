@@ -4,4 +4,3 @@
 
 SELECT Employees.name, managers.name FROM EMPloyees
 JOIN managers ON `EMPloyees`.employee_id = `managers`.manager_id;
-
