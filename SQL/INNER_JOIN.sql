@@ -67,3 +67,7 @@ INSERT INTO Orders (customer_id, order_date) VALUES
 SELECT * from customers;
 
 SELECT * FROM Orders;
+
+SELECT `Orders`.order_id, `Orders`.customer_id, `Orders`.order_date, Customers.customer_name FROM Customers
+JOIN Orders
+ON Customers.customer_id = Orders.Customer_id;
