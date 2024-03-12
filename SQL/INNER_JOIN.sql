@@ -68,6 +68,13 @@ SELECT * from customers;
 
 SELECT * FROM Orders;
 
+-- EXPLICIT JOIN
 SELECT `Orders`.order_id, `Orders`.customer_id, `Orders`.order_date, Customers.customer_name FROM Customers
 JOIN Orders
 ON Customers.customer_id = Orders.Customer_id;
+
+-- IMPLICIT JOIN
+SELECT `Orders`.order_id, `Orders`.customer_id, `Orders`.order_date, Customers.customer_name FROM Customers, Orders
+where Customers.customer_id = Orders.Customer_id
+ORDER BY Customers.customer_id DESC;
+
