@@ -78,3 +78,12 @@ SELECT `Orders`.order_id, `Orders`.customer_id, `Orders`.order_date, Customers.c
 where Customers.customer_id = Orders.Customer_id
 ORDER BY Customers.customer_id DESC;
 
+-- subquery
+SELECT `Orders`.order_id, `Orders`.customer_id, `Orders`.order_date 
+FROM Orders
+WHERE `Orders`.customer_id IN (
+    SELECT customer_id FROM Customers 
+)
+
+
+
