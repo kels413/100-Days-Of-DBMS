@@ -4,3 +4,6 @@
 
 SELECT Employees.name, managers.name FROM EMPloyees
 JOIN managers ON `EMPloyees`.employee_id = `managers`.manager_id;
+
+
+-- correction on this self JOIN LATER, I HAVE NOT READ BOUT IT.
