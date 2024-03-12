@@ -5,19 +5,15 @@
 -- sales amount (sum)
 -- each customer (GROUP BY)
 
-SELECT Customers.customer_name,
-       Customers.customer_id,
-       ORDERS.order_date,
-       SUM(ORDERS.order_amount) AS 'SUM'
-FROM Customers
-JOIN ORDERS
-ON  Customers.customer_id = ORDERS.customer_id
-WHERE ORDERS.order_date > '2023-03-15'
-GROUP BY Customers.customer_name, Customers.customer_id, ORDERS.order_date;
-
-
-
-
+SELECT C.customer_name,
+       C.customer_id,
+       O.order_date,
+       SUM(O.order_amount) AS 'SUM'
+FROM Customers C
+JOIN ORDERS O
+ON  C.customer_id = O.customer_id
+WHERE O.order_date > '2023-01-15'
+GROUP BY C.customer_name, C.customer_id, O.order_date;
 
 
 
