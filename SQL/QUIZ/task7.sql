@@ -24,26 +24,5 @@
 
 SELECT Students.name, Courses.name FROM Students
 JOIN Courses ON Student.id = `Courses`.id
-
-
-CREATE TABLE `Students`(
-    student_id INT AUTO_INCREMENT NOT NULL UNIQUE PRIMARY KEY,
-    student_name VARCHAR(40)
-)
-
-
-CREATE TABLE `Courses`(
-    course_id = INT AUTO_INCREMENT NOT NULL UNIQUE PRIMARY KEY,
-    course_name VARCHAR(50) NOT NULL,
-    student_id INT NOT NULL,
-    FOREIGN KEY (student_id) REFERENCES Students(student_id)
-)
-
-CREATE TABLE `Enrollment`(
-    enroll_id = INT AUTO_INCREMENT NOT NULL UNIQUE PRIMARY KEY,
-    student_id INT NOT NULL,
-    courses_id INT NOT NULL,
-    FOREIGN KEY (student_id) REFERENCES Students(student_id)
-    FOREIGN KEY (courses_id) REFERENCES Courses(course_id)
-)
-
+-- 
+-- MANY TO MANY RELATIONSHIP, WILL STILL COME BACK TO IT.
