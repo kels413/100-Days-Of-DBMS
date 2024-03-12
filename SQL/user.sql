@@ -24,3 +24,10 @@ CREATE user 'ayo'@'localhost' IDENTIFIED BY '11111'
 
 SELECT USER, HOST FROM mysql.user
 
+SHOW GRANTS FOR 'root'@'localhost'
+
+SHOW GRANTS;
+
+SELECT CURRENT_USER();
+
+GRANT SELECT.* ON
