@@ -21,6 +21,11 @@
 
 -- design tables
 
+
+SELECT Students.name, Courses.name FROM Students
+JOIN Courses ON Student.id = `Courses`.id
+
+
 CREATE TABLE `Students`(
     student_id INT AUTO_INCREMENT NOT NULL UNIQUE PRIMARY KEY,
     student_name VARCHAR(40)
