@@ -7,6 +7,8 @@ JOIN Departments
 ON employees.department_id = Departments.department_id
 WHERE Departments.department_name = 'sales'
 
-SELECT department_id, name from Departments, employ WHERE `Departments`.department_id in
+SELECT department_id, department_name from Departments WHERE `Departments`.department_id in
 (SELECT employee_id FROM employees);
+
+
 
