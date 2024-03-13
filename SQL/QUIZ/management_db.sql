@@ -48,11 +48,17 @@ CREATE TABLE Customers (
     customer_name VARCHAR(50)
 );
 
+
+
+
 -- Insert some sample data into the Customers table
 INSERT INTO Customers (customer_name) VALUES
 ('ABC Company'),
 ('XYZ Corporation'),
 ('123 Industries');
+
+INSERT INTO Customers (customer_name) VALUES
+('Kelly chukwu')
 
 -- Create the Orders table
 CREATE TABLE Orders (
