@@ -58,7 +58,7 @@ INSERT INTO Customers (customer_name) VALUES
 ('123 Industries');
 
 INSERT INTO Customers (customer_name) VALUES
-('Kelly chukwu')
+('ayo mide')
 
 -- Create the Orders table
 CREATE TABLE Orders (
@@ -76,7 +76,8 @@ INSERT INTO Orders (customer_id, order_date, order_amount) VALUES
 (1, '2023-03-10', 30.12),
 (3, '2023-04-05', 400);
 
-DROP TABLE ORDERS;
+INSERT INTO Orders (customer_id, order_date, order_amount) VALUES
+(2,'2023-01-15', 50.13)
 
 
 SELECT * from customers;
